@@ -12,10 +12,10 @@ const sum = function(array) {
   }, 0)
 };
 
-const multiply = function() {
-  return array.reduce((acc, curr) => {
+const multiply = function(input) {
+  return input.reduce((acc, curr) => {
     return acc * curr;
-  }, 0)
+  }, 1)
 };
 
 const power = function(base, expo) {
